@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css" />
+    <script
+      src="https://kit.fontawesome.com/5ae78eaa0d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <script>
+    (function(){
+      emailjs.init("oznC7r1zchnYlb9cX");
+    })();
+    </script>
+  </head>
+  <body>
+    <div class="header">
+      <h3><span class="hu">Hu</span>stle!</h3>
+
+      <div class="header-anchor">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="project.html">Project</a>
+        <a href="certificate.html">Certificates</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+
+    <!-- -------Project Container------- -->
+    <div class="contact">
+      <h3>My<span> Contact</span></h3>
+    </div>
+
+    <div class="contact-info">
+      <div class="personal-info">
+        <h4>Let's Work Together</h4>
+        <br />
+        <p>
+          Have a project, Internship opportunity, in collaboration in mind?
+          <br />
+          Feel free to contact me. I'm always open to learning and new <br />
+          opportunities.
+        </p>
+        <br>
+
+        <!-- ======Email======= -->
+        <p> <i class="fa-regular fa-envelope email" style="color: rgb(99, 230, 190);"></i> <h3>Email:</h3>
+        <br> <span>rdivyam4@gmail.com</span></p>
+        <br>
+
+        <!-- ======Phone======= -->
+        <p> <i class="fa-solid fa-phone" style="color: rgb(99, 230, 190);"></i> Phone:
+        <br> <span>+91 9297817475</span></p>
+        <br>
+
+        <!-- ======Location======= -->
+        <p> <i class="fa-solid fa-map-pin" style="color: rgb(255, 14, 14);"></i> Location:
+        <br> <span>Munger, Bihar</span></p>
+      </div>
+
+      <!-- ---------Email Boxes-------- -->
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+  </body>
+
+  <script>
+document.getElementById("contact-form")
+  .addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    emailjs.sendForm(
+      "service_6ve9wdu",
+      "template_3cmgteq",
+      this
+    ).then(function() {
+        alert("Message sent successfully!");
+      }, function(error) {
+        alert("Failed to send message: " + error.text);
+      });
+  });
+</script>
+</html>

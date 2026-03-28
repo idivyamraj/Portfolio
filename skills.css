@@ -1,0 +1,305 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: rgb(15, 23, 42, 1);
+}
+
+.header {
+  display: flex;
+  flex: 1;
+  padding: 20px 100px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(84, 83, 83);
+}
+
+.header h3 {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+h3 > .hu {
+  color: rgb(7, 224, 224);
+}
+
+.header-anchor {
+  display: flex;
+  gap: 20px;
+}
+
+.header-anchor > a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-anchor > a:hover {
+  color: rgb(7, 224, 224);
+  transition-duration: 1s;
+}
+
+div span {
+  color: rgb(7, 224, 224);
+}
+
+h3 {
+  color: white;
+}
+
+.about-me > h3 {
+  height: 70px;
+  flex: 1;
+  /* border: 2px solid black; */
+  text-align: center;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 50px;
+}
+
+/* ------------HTML-CSS-Tailwind----------- */
+.html-css-tailwind {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+
+.html {
+  height: 120px;
+  width: 400px;
+  border-radius: 20px;
+  border: 2px solid rgb(137, 133, 133);
+  color: white;
+  /* background-color: #e5e7eb; */
+  font-size: 25px;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  box-shadow: 1px 1px 5px 1px #888888;
+}
+
+.html h3 {
+  color: rgb(7, 224, 224);
+}
+
+.html p {
+  color: rgb(196, 190, 190);
+  font-size: 18px;
+}
+
+.css {
+  height: 120px;
+  width: 400px;
+  border-radius: 20px;
+  border: 2px solid rgb(137, 133, 133);
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  box-shadow: 1px 1px 5px 1px #888888;
+}
+
+.css h3 {
+  color: rgb(7, 224, 224);
+}
+
+.css p {
+  color: rgb(196, 190, 190);
+  font-size: 18px;
+}
+
+.tailwind {
+  height: 120px;
+  width: 400px;
+  border-radius: 20px;
+  border: 2px solid rgb(137, 133, 133);
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  box-shadow: 1px 1px 5px 1px #888888;
+}
+
+.tailwind h3 {
+  color: rgb(7, 224, 224);
+}
+
+.tailwind p {
+  color: rgb(196, 190, 190);
+  font-size: 18px;
+}
+
+/* ----JavaScript-React-Firebase---- */
+
+.javascript-react-python {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 2px solid black; */
+  margin-top: 30px;
+}
+
+.javascript {
+  height: 120px;
+  width: 400px;
+  border-radius: 20px;
+  border: 2px solid rgb(137, 133, 133);
+  color: white;
+  /* background-color: #e5e7eb; */
+  font-size: 25px;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  box-shadow: 1px 1px 5px 1px #888888;
+}
+
+.javascript h3 {
+  color: rgb(7, 224, 224);
+}
+
+.javascript p {
+  color: rgb(196, 190, 190);
+  font-size: 18px;
+}
+
+.react {
+  height: 120px;
+  width: 400px;
+  border-radius: 20px;
+  border: 2px solid rgb(137, 133, 133);
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  box-shadow: 1px 1px 5px 1px #888888;
+}
+
+.react h3 {
+  color: rgb(7, 224, 224);
+}
+
+.react p {
+  color: rgb(196, 190, 190);
+  font-size: 18px;
+}
+
+.python {
+  height: 120px;
+  width: 400px;
+  border-radius: 20px;
+  border: 2px solid rgb(137, 133, 133);
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  box-shadow: 1px 1px 5px 1px #888888;
+}
+
+.python h3 {
+  color: rgb(7, 224, 224);
+}
+
+.python p {
+  color: rgb(196, 190, 190);
+  font-size: 16px;
+  padding-top: 30px;
+}
+
+/* ------github-c-git------- */
+
+.github-c-git {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 2px solid black; */
+  margin-top: 30px;
+}
+
+.github {
+  height: 120px;
+  width: 400px;
+  border-radius: 20px;
+  border: 2px solid rgb(137, 133, 133);
+  color: white;
+  /* background-color: #e5e7eb; */
+  font-size: 25px;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  box-shadow: 1px 1px 5px 1px #888888;
+}
+
+.github h3 {
+  color: rgb(7, 224, 224);
+}
+
+.github p {
+  color: rgb(196, 190, 190);
+  font-size: 18px;
+}
+
+.c {
+  height: 120px;
+  width: 400px;
+  border-radius: 20px;
+  border: 2px solid rgb(137, 133, 133);
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  box-shadow: 1px 1px 5px 1px #888888;
+}
+
+.c h3 {
+  color: rgb(7, 224, 224);
+}
+
+.c p {
+  color: rgb(196, 190, 190);
+  font-size: 18px;
+}
+
+.git {
+  height: 120px;
+  width: 400px;
+  border-radius: 20px;
+  border: 2px solid rgb(137, 133, 133);
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  box-shadow: 1px 1px 5px 1px #888888;
+}
+
+.git h3 {
+  color: rgb(7, 224, 224);
+}
+
+.git p {
+  color: rgb(196, 190, 190);
+  font-size: 16px;
+  padding-top: 30px;
+}
+
+.footer {
+  height: 50px;
+  flex: 1;
+  background-color: rgba(2, 6, 23, 1);
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.footer p{
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 70%;
+}

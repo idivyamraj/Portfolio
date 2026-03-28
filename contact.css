@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: rgb(15, 23, 42, 1);
+}
+
+.header {
+  display: flex;
+  flex: 1;
+  padding: 20px 100px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(84, 83, 83);
+}
+
+.header h3 {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+h3 > .hu {
+  color: rgb(7, 224, 224);
+}
+
+.header-anchor {
+  display: flex;
+  gap: 20px;
+}
+
+.header-anchor > a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-anchor > a:hover {
+  color: rgb(7, 224, 224);
+  transition-duration: 1s;
+}
+
+/* ================================== */
+div span {
+  color: rgb(7, 224, 224);
+}
+
+h3 {
+  color: white;
+}
+
+.contact > h3 {
+  height: 70px;
+  flex: 1;
+  /* border: 2px solid black; */
+  text-align: center;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 50px;
+}
+
+.contact-info {
+  height: auto;
+  flex: 1;
+  border: 2px solid grey;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.personal-info h4 {
+  color: white;
+}
+
+.personal-info > p {
+  color: grey;
+}
+
+/* ---------Email Boxes-------- */
+
+.mail-box {
+  height: auto;
+  width: 400px;
+  /* border: 2px solid rgb(156, 153, 156); */
+  background-color: rgba(30, 41, 59, 1);
+}
+
+.your-name {
+  height: 30px;
+  width: 380px;
+  border: 2px solid rgb(156, 153, 156);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 70%;
+  margin-top: 6rem;
+}
+
+.your-email {
+  height: 30px;
+  width: 380px;
+  border: 2px solid rgb(156, 153, 156);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 70%;
+  margin-top: 30px;
+}
+
+.messaging-me {
+  height: 30px;
+  width: 380px;
+  border: 2px solid rgb(156, 153, 156);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 70%;
+  margin-top: 30px;
+}
